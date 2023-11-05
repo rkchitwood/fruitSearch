@@ -1,0 +1,37 @@
+body{
+    background-image: linear-gradient(to right, aquamarine, blueviolet);
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+#resultcontainer{
+    display: flex;
+    padding-top: 25%;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    flex-direction: column;
+    overflow-y: auto;
+}
+#searchbar{
+   border: .2rem solid lightcoral;
+   margin: 0rem;
+   width: 30%;
+   background-color: lightcoral;
+}
+.result{
+    margin: 0rem;
+    border: .2rem solid lightcoral;
+    width: 30%;
+    text-align: left;
+    background-color: lightcoral;
+}
+input{
+    background-color:lightcoral;
+    width: 95%;
+}
+.mouseover{
+    background-color: coral;
+    border-color: coral;
+}
